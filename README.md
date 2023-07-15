@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Weather-App
-=======
-<<<<<<< HEAD
 # Weather-App
 Real Time Weather App in React JS
 =======
