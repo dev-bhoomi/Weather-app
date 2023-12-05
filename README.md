@@ -1,75 +1,146 @@
-# Weather-App
-Real Time Weather App in React JS
-=======
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#  Weather-App using react.js
 
-## Available Scripts
+This Weather App is a web application developed using React.js. It allows users to check the weather conditions for different locations.
+## Demo
 
-In the project directory, you can run:
+Insert gif or link to demo
 
-### `npm start`
+![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWM2cTFvYjBjM3hldTlsYWozazYzazJnZHY3NXZva2g5YjA2emI4eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/szizfoO5pNe0rKGSfd/source.gif)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Deployment
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Link to Deployed Application](https://dev-bhoomi.github.io/Weather-app/)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Appendix
 
-### `npm run eject`
+Any additional information goes here
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Acknowledgements
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## API Reference
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Get all items
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```http
+  GET /api/items
+```
 
-### Code Splitting
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+#### Get item
 
-### Analyzing the Bundle Size
+```http
+  GET /api/items/${id}
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `id`      | `string` | **Required**. Id of item to fetch |
 
-### Making a Progressive Web App
+#### add(num1, num2)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Takes two numbers and returns the sum.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Features
 
-### Deployment
+- Responsive Design: The expanding image cards work smoothly on different devices, adapting to various screen sizes.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Interactive Experience: Click on a card, and the image elegantly expands for a closer view. Click on another, and the previous one collapses.
 
-### `npm run build` fails to minify
+- Easy Customization: You can easily change the images inside each card. Customize the content to showcase your favorite pictures.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> c3fd382 (aa)
->>>>>>> 4bac435 (app)
+
+## Authors
+
+- [@octokatherine](https://www.github.com/octokatherine)
+
+
+## Badges
+
+Add badges from somewhere like: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
+| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
+| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
+| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+
+
+## 🚀 About Me
+Hi there! 👋 I'm Bhoomi Gupta, a passionate fourth-year student pursuing a Bachelor's in Technology (B.Tech). I'm currently immersed in the exciting world of frontend development, striving to create engaging and user-friendly web experiences.
+
+### What I'm Learning
+
+I'm focusing on honing my skills in:
+
+- **HTML & CSS:** Crafting the structure and styling of web pages.
+- **JavaScript:** Adding interactivity and dynamic features to websites.
+- **React.js:** Building powerful and responsive user interfaces.
+
+### Projects and Contributions
+
+I love turning ideas into reality through coding. You'll find some of my projects here on GitHub, showcasing my journey in web development. I enjoy contributing to open-source projects and collaborating with fellow developers.
+
+### Let's Connect
+
+I'm always eager to learn, collaborate, and share experiences. If you have any suggestions, project ideas, or just want to chat about coding, feel free to reach out! Let's connect and grow together.
+
+Happy coding! 🚀
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at fake@fake.com
+
+
+# Hi, I'm dev-bhoomi! 👋
+
+
+## 🔗 Links
+https://github.com/dev-bhoomi
+
+## 🛠 Skills
+Javascript, HTML, CSS, bootstrap and react.js
+
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
+    
